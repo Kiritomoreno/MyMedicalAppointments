@@ -7,11 +7,17 @@ public class Doctor {
 
     Doctor(){
         System.out.println("Construyendo el Objeto Doctor");
-        id++;
+
     }
 
-    Doctor(String name){
+    Doctor(String name, String speciality){
         System.out.println("El nombre del Doctor asignado es: " + name);
+        id++;
+        // Pasamos el dato a la variable global
+        // Estamos asignando con this
+        this.name = name;
+        this.speciality = speciality;
+
     }
 
     //Comportamientos
