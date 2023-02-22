@@ -1,4 +1,4 @@
-import java.util.function.DoubleToIntFunction;
+import static ui.UIMenu.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,7 +13,12 @@ public class Main {
         Doctor myDoctorAnn = new Doctor();
         myDoctor.showId();
 
-        UIMenu.showMenu();
+        showMenu();
+        // una forma de hacerlo modular para usar nuestra parte estatica
+        //sabemos que conceptual mente  no esta bien crear nuestro menu porque podemos llamarlo solamente ui.UIMenu.
+        /*
+        Para ahorrarme el nombre de la clase tengo  que crear una carpeta con la opción package y creamos la carpeta ui.
+         */
 
     }
 

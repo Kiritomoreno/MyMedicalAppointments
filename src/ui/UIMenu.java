@@ -1,3 +1,5 @@
+package ui;
+
 import java.util.Scanner;
 public class UIMenu {
     public static void showMenu(){
