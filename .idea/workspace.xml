@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677095843692</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creación de la case Patient class.12">
+      <created>1677167869371</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677167869371</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,7 +123,8 @@
     <MESSAGE value="Modularizado con la logica ui, esta definido como estatico y con su modificador con acceso public class.8 ( creamos la carpeta ui) Elementos estaticos" />
     <MESSAGE value="Final: Variables Constantes clas.9" />
     <MESSAGE value="Sobrecarga de métodos y constructores clas.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sobrecarga de métodos y constructores clas.10" />
+    <MESSAGE value="Creación de la case Patient class.12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creación de la case Patient class.12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
