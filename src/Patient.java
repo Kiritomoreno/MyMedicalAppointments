@@ -9,6 +9,11 @@ public class Patient {
     private double weight;
     private double height;
     private String blood;
+    /*
+        Ahora no podemos añadirle los nuevos atributos  o cambiar el nombre.
+        Pero tenemos otra forma más facil que sesuelve nuestra validaciones y nos sigue dando acceso sin tocarlos directamente.
+        Getter y Setter
+         */
 
 // Método constructor sobre cargado
     Patient(String name, String email){
