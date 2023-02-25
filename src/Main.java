@@ -1,12 +1,11 @@
-import java.util.Date;
+import model.Doctor;
+import model.Patient;
 
-import static ui.UIMenu.*;
+import java.util.Date;
 
 public class Main {
     public static void main(String[] args) {
-        /*Polimorfismo: Sobreescribiendo el método
-        Vamos a implementar y vamos a sobre escribir el método en la clase Doctor
-         */
+        // Creando una interfaz
 
         Doctor myDoctor = new Doctor("Andres moreno", "Cirugia");
         myDoctor.addAvaibleAppointment(new Date(), "4pm");
@@ -21,6 +20,5 @@ public class Main {
 
 
     }
-
 
 }

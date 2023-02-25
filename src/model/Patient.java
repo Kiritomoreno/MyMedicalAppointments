@@ -1,3 +1,5 @@
+package model;
+
 public class Patient extends User {
     //Atributos
     private String birthday;
@@ -6,9 +8,9 @@ public class Patient extends User {
     private String blood;
 
 
-    // Necesito un constructor default disponible en User
+    // Necesito un constructor default disponible en model.User
     // Estoy aplicando herencia con Super
-    Patient(String name, String email){
+    public Patient(String name, String email){
         super(name,email);
     }
     // Quiero que tenga acceso a una variable pero no directamente y utilizamos public
