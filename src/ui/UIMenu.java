@@ -95,6 +95,7 @@ public class UIMenu {
                         // obtener el usuario logeado
                         doctorLogged = d;
                         //showDoctorMenu
+                        UIDoctorMenu.showDoctorMenu();
                     }
                 }
             }if(userType == 2){

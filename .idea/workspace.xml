@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ui/UIPatientMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/UIDoctorMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIDoctorMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677338629729</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Modularizando la UI de Doctores class.34(Ya tenemos modularizada la interfaz del doctor y tenemos disponible una interfaz para estar mostrando las opciones &quot;Definir las citas disponibles&quot;)">
+      <created>1677342783227</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1677342783227</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,7 +239,8 @@
     <MESSAGE value="Clases Anónimas (ciclo de vida cortos)class.28" />
     <MESSAGE value="Simulando autenticación de usuarios class.32: Estamos viendo que tipo de variable podria utilizar cuando traigo los datos de la fuente por ejemplo (ArrayList&lt;&gt; Para manejar coleciones de objetos) y tambien preparamos nuestro programa para cambiar a que menu vamos a utilizar" />
     <MESSAGE value="Modularizando la UI de Doctores class.33" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modularizando la UI de Doctores class.33" />
+    <MESSAGE value="Modularizando la UI de Doctores class.34(Ya tenemos modularizada la interfaz del doctor y tenemos disponible una interfaz para estar mostrando las opciones &quot;Definir las citas disponibles&quot;)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modularizando la UI de Doctores class.34(Ya tenemos modularizada la interfaz del doctor y tenemos disponible una interfaz para estar mostrando las opciones &quot;Definir las citas disponibles&quot;)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyMedicalAppointments$Main.ic" NAME="Main Coverage Results" MODIFIED="1677095346068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

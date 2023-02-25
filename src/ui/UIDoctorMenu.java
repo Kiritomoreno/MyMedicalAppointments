@@ -24,8 +24,10 @@ public class UIDoctorMenu {
 
             switch (response){
                 case 1:
+                    showAddAvaibleAppointmentsMenu();
                     break;
                 case 2:
+
                     break;
                 case 0:
                     UIMenu.showMenu();
@@ -55,7 +57,7 @@ public class UIDoctorMenu {
             if(response > 0 && response < 4){
                 // 1,2,3
                 int monthSelect = response;
-                System.out.println(monthSelect+". "+ UIMenu.MONTHS[monthSelect]);
+                System.out.println(monthSelect+". "+ UIMenu.MONTHS[monthSelect-1]);
 
                 System.out.println("Insert the date available: [dd/mm/yyyy]");
                 String date = sc.nextLine();
