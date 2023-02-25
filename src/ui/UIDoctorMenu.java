@@ -1,10 +1,14 @@
 package ui;
 
 import jdk.nashorn.internal.runtime.regexp.joni.ScanEnvironment;
+import model.Doctor;
 
+import javax.print.Doc;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UIDoctorMenu {
+    public static ArrayList<Doctor> doctorsAvailableAppointments = new ArrayList<>();
     public static void showDoctorMenu(){
         int response = 0;
         do{
@@ -32,6 +36,7 @@ public class UIDoctorMenu {
     }
 
     private static void showAddAvaibleAppointmentsMenu(){
+
         int response = 0;
         do {
             System.out.println();
@@ -56,12 +61,35 @@ public class UIDoctorMenu {
                 String date = sc.nextLine();
 
                 System.out.println("Your date is: "+ date + "\n1. Correcto \n2. Change date");
+                int responseDate = Integer.valueOf(sc.nextLine());
+                if(responseDate == 2){
+                    continue;
+                }
+                int responseTime = 0;
+                String time = "";
+                do {
+                    System.out.println("Insert the time available for date: "+ date+ "[16:00]");
+                    time =sc.nextLine();
+                    System.out.println("Your time is: "+ time+ "\n1. Correcto \2. Change Time");
+                    responseTime = Integer.valueOf(sc.nextLine());
 
+                }while (responseTime == 2);
+
+                UIMenu.doctorLogged.addAvaibleAppointment(date, time);
+
+                checkDoctorAvailableAppointmets(UIMenu.doctorLogged);
 
             }else if (response == 0){
                 showDoctorMenu();
             }
 
         }while (response != 0);
+    }
+
+    // método privado porque segun su logica solo le corresponde esta aqui
+    private static void checkDoctorAvailableAppointmets(Doctor doctor){
+        if(doctor.getAvaibleAppointments().size() > 0 && !doctorsAvailableAppointments.contains(doctor)){
+            doctorsAvailableAppointments.add(doctor);
+        }
     }
 }
