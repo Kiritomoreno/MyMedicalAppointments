@@ -1,7 +1,7 @@
 package model;
 
-public class User {
-    // super y this
+public abstract class User {
+    // Aplicando Clases Abstracts
     // aplicamos herencia ( public class model.Patient extends model.User)
     private int id;
     private String name;
