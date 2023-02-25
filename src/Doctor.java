@@ -2,36 +2,21 @@ import javax.print.Doc;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class Doctor {
-    static int id= 0; // Autoincrement
-    private String name;
+public class Doctor extends User{
     private String speciality;
 
-    // Avaiable appointment está vinculado con el Doctor
-    // la mejor solución crear una clase independiente
-
-    Doctor(){
-        System.out.println("Construyendo el Objeto Doctor");
-
-    }
-
-    Doctor(String name, String speciality){
+    Doctor(String name, String email){
+        super(name,email);
         System.out.println("El nombre del Doctor asignado es: " + name);
-        id++;
-        // Pasamos el dato a la variable global
-        // Estamos asignando con this
-        this.name = name;
         this.speciality = speciality;
-
     }
 
-    //Comportamientos
-    // Nuestro primer metodo
-    public void showName(){
-        System.out.println(name);
+    public String getSpeciality() {
+        return speciality;
     }
-    public void showId(){
-        System.out.println("ID Doctor: " + id);
+
+    public void setSpeciality(String speciality) {
+        this.speciality = speciality;
     }
 
     // Primer encuentro con colecciones
