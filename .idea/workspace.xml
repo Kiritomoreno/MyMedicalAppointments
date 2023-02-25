@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ui/UIDoctorMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677332944631</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Simulando autenticación de usuarios class.32: Estamos viendo que tipo de variable podria utilizar cuando traigo los datos de la fuente por ejemplo (ArrayList&lt;&gt; Para manejar coleciones de objetos) y tambien preparamos nuestro programa para cambiar a que menu vamos a utilizar">
+      <created>1677337591179</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1677337591179</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -212,7 +220,8 @@
     <MESSAGE value="Clases Abstractas, Cambiamos la clase User a clase Abstracta. Class.26" />
     <MESSAGE value="Miembros abstractos, Esta es la forma de aprovechar como utilizar las clases abstractas, recuerda que no podemos crear instacias de una clase abstracta y que los métodos abstractos nos van a servir para darle un comportamiento totalmente personalizado en las clases hijas. (En las clases abstractas estamos viendo otra forma de polimorfismo donde el comportamiento lo dita la clase hija )class.27" />
     <MESSAGE value="Clases Anónimas (ciclo de vida cortos)class.28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clases Anónimas (ciclo de vida cortos)class.28" />
+    <MESSAGE value="Simulando autenticación de usuarios class.32: Estamos viendo que tipo de variable podria utilizar cuando traigo los datos de la fuente por ejemplo (ArrayList&lt;&gt; Para manejar coleciones de objetos) y tambien preparamos nuestro programa para cambiar a que menu vamos a utilizar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Simulando autenticación de usuarios class.32: Estamos viendo que tipo de variable podria utilizar cuando traigo los datos de la fuente por ejemplo (ArrayList&lt;&gt; Para manejar coleciones de objetos) y tambien preparamos nuestro programa para cambiar a que menu vamos a utilizar" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyMedicalAppointments$Main.ic" NAME="Main Coverage Results" MODIFIED="1677095346068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
