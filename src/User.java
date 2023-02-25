@@ -55,4 +55,10 @@ public class User {
             this.phoneNumber = phoneNumber;
         }
     }
+    // Vamos a implementar el método to String de clase object
+
+    @Override
+    public String toString() {
+        return "User: " + name +", Email: "+ email+"\nAddress: "+address+". Phone: "+phoneNumber;
+    }
 }

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677172034968</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Esta es la forma que podemos hacer el código más conciso, mucho más legible utilizando herencia en java. Ahora este código puede ser reutilizado en nuestras clases HIJAS y cuando estemos utilizando las clases hijas, alli podemos utilizar los métodos que definimos en USER como si fueran propios de esta clase. class20">
+      <created>1677321752710</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677321752710</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,7 +164,8 @@
     <MESSAGE value="sin Getters y Setters class.13" />
     <MESSAGE value="Usando Getters y Setters class.13" />
     <MESSAGE value="Clases anidadas class.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clases anidadas class.16" />
+    <MESSAGE value="Esta es la forma que podemos hacer el código más conciso, mucho más legible utilizando herencia en java. Ahora este código puede ser reutilizado en nuestras clases HIJAS y cuando estemos utilizando las clases hijas, alli podemos utilizar los métodos que definimos en USER como si fueran propios de esta clase. class20" />
+    <option name="LAST_COMMIT_MESSAGE" value="Esta es la forma que podemos hacer el código más conciso, mucho más legible utilizando herencia en java. Ahora este código puede ser reutilizado en nuestras clases HIJAS y cuando estemos utilizando las clases hijas, alli podemos utilizar los métodos que definimos en USER como si fueran propios de esta clase. class20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

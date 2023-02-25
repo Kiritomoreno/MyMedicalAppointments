@@ -45,4 +45,8 @@ public class Patient extends User {
         this.blood = blood;
     }
 
+    @Override
+    public String toString() {
+        return super.toString()+ "\nAge: " + birthday+"\n Weight: "+ getWeight()+"\n Height: "+ getHeight()+"\n Blood: "+blood;
+    }
 }
