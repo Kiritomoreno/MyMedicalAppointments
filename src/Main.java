@@ -1,6 +1,8 @@
 import model.Doctor;
 import model.Patient;
+import model.User;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.Date;
 
 public class Main {
@@ -14,9 +16,14 @@ public class Main {
 
         System.out.println(myDoctor);
 
+        User user = new Doctor("Leo", "leo@gmail.com");
+        user.showDataUser();
+        User userPa = new Patient("Robert","Robert@gmail.com");
+        userPa.showDataUser();
+        /*
         Patient patient = new Patient("Alejo", "Alejo@gmail.com");
         System.out.println(patient);
-
+        */
 
 
     }
