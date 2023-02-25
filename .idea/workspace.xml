@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677332120139</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Clases Anónimas (ciclo de vida cortos)class.28">
+      <created>1677332944631</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1677332944631</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -204,7 +211,8 @@
     <MESSAGE value="Creación de interfaz. class.24" />
     <MESSAGE value="Clases Abstractas, Cambiamos la clase User a clase Abstracta. Class.26" />
     <MESSAGE value="Miembros abstractos, Esta es la forma de aprovechar como utilizar las clases abstractas, recuerda que no podemos crear instacias de una clase abstracta y que los métodos abstractos nos van a servir para darle un comportamiento totalmente personalizado en las clases hijas. (En las clases abstractas estamos viendo otra forma de polimorfismo donde el comportamiento lo dita la clase hija )class.27" />
-    <option name="LAST_COMMIT_MESSAGE" value="Miembros abstractos, Esta es la forma de aprovechar como utilizar las clases abstractas, recuerda que no podemos crear instacias de una clase abstracta y que los métodos abstractos nos van a servir para darle un comportamiento totalmente personalizado en las clases hijas. (En las clases abstractas estamos viendo otra forma de polimorfismo donde el comportamiento lo dita la clase hija )class.27" />
+    <MESSAGE value="Clases Anónimas (ciclo de vida cortos)class.28" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases Anónimas (ciclo de vida cortos)class.28" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyMedicalAppointments$Main.ic" NAME="Main Coverage Results" MODIFIED="1677095346068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
