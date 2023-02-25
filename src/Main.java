@@ -1,6 +1,4 @@
-import model.Doctor;
-import model.Patient;
-import model.User;
+import model.*;
 
 import javax.jws.soap.SOAPBinding;
 import java.util.Date;
@@ -20,6 +18,29 @@ public class Main {
         user.showDataUser();
         User userPa = new Patient("Robert","Robert@gmail.com");
         userPa.showDataUser();
+
+        // clases Anónimas son temporales
+        //Le estamos dando un comportamiento que solo está vigente cuando se usa
+        User user1 = new User("Juliet", "Juliet@gmail.com") {
+            @Override
+            public void showDataUser() {
+                System.out.println("Doctora\n");
+                System.out.println("Hospital: Cruz Verde");
+                System.out.println("Departamento: Geriatría");
+            }
+        };
+        user1.showDataUser();
+
+        ISchedulable iSchedulable = new ISchedulable() {
+            @Override
+            public void schedule(Date date, String time) {
+
+            }
+        };
+        // Si lo mando a llamar y le paso los parametros se estara ejecutando lo que sea que este definido en esta clase AppointmentDoctor()
+       // ISchedulable iSchedulable1 = new AppointmentDoctor();
+        //iSchedulable1.schedule();
+
         /*
         Patient patient = new Patient("Alejo", "Alejo@gmail.com");
         System.out.println(patient);
