@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/AppointmentDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AppointmentDoctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Patient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/UIMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/UIPatientMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIPatientMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677345450592</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Agendando Citas class.37">
+      <created>1677347499391</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1677347499391</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +260,8 @@
     <MESSAGE value="Modularizando la UI de Doctores class.34(Ya tenemos modularizada la interfaz del doctor y tenemos disponible una interfaz para estar mostrando las opciones &quot;Definir las citas disponibles&quot;)" />
     <MESSAGE value="Modularizando la UI de pacientes class.35" />
     <MESSAGE value="Recorriendo estructuras de árbol en Java class.36" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recorriendo estructuras de árbol en Java class.36" />
+    <MESSAGE value="Agendando Citas class.37" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agendando Citas class.37" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
