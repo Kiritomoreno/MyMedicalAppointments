@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.Date;
 
 public class Doctor extends User{
+    // Primer encuentro con colecciones
+    private ArrayList<AvaibleAppointment> avaibleAppointments = new ArrayList<>();
     private String speciality;
 // método constructor -->
     public Doctor(String name, String email){
@@ -20,8 +22,7 @@ public class Doctor extends User{
         this.speciality = speciality;
     }
 
-    // Primer encuentro con colecciones
-    ArrayList<AvaibleAppointment> avaibleAppointments = new ArrayList<>();
+
     // crear un método al nivel de la clase. Que va a estar añadiendo una nueva cita, que se acumula en este array
     public void addAvaibleAppointment(String date, String time){
 
@@ -68,11 +69,11 @@ public class Doctor extends User{
             this.id = id;
         }
 
-        public Date getDate() {
+        public Date getDate(String DATE) {
             return date;
         }
 
-        public String getDate(String DATE) {
+        public String getDate() {
             return format.format(date);
         }
         public void setDate(Date date) {
