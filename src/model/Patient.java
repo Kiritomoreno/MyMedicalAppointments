@@ -1,5 +1,8 @@
 package model;
 
+import java.util.ArrayList;
+import java.util.Date;
+
 public class Patient extends User {
     //Atributos
     private String birthday;
@@ -7,6 +10,27 @@ public class Patient extends User {
     private double height;
     private String blood;
 
+    private ArrayList<AppointmentDoctor> appointmentDoctors = new ArrayList<>();
+    private ArrayList<AppointmentDoctor> appointmentNurses = new ArrayList<>();
+
+    public ArrayList<AppointmentDoctor> getAppointmentDoctors() {
+        return appointmentDoctors;
+    }
+
+    public void addAppointmentDoctors(Doctor doctor, Date date, String time) {
+        // creamos una instancia
+        AppointmentDoctor appointmentDoctor = new AppointmentDoctor(this, doctor);
+        appointmentDoctor.schedule(date,time);
+        appointmentDoctors.add(appointmentDoctor);
+    }
+
+    public ArrayList<AppointmentDoctor> getAppointmentNurses() {
+        return appointmentNurses;
+    }
+
+    public void setAppointmentNurses(ArrayList<AppointmentDoctor> appointmentNurses) {
+        this.appointmentNurses = appointmentNurses;
+    }
 
     // Necesito un constructor default disponible en model.User
     // Estoy aplicando herencia con Super

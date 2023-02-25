@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/AppointmentDoctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/AppointmentDoctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ui/UIPatientMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/UIPatientMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677344077958</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Recorriendo estructuras de árbol en Java class.36">
+      <created>1677345450592</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1677345450592</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -245,7 +253,19 @@
     <MESSAGE value="Modularizando la UI de Doctores class.33" />
     <MESSAGE value="Modularizando la UI de Doctores class.34(Ya tenemos modularizada la interfaz del doctor y tenemos disponible una interfaz para estar mostrando las opciones &quot;Definir las citas disponibles&quot;)" />
     <MESSAGE value="Modularizando la UI de pacientes class.35" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modularizando la UI de pacientes class.35" />
+    <MESSAGE value="Recorriendo estructuras de árbol en Java class.36" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recorriendo estructuras de árbol en Java class.36" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Patient.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyMedicalAppointments$Main.ic" NAME="Main Coverage Results" MODIFIED="1677095346068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
