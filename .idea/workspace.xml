@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6de656d5-b41b-4655-984b-eccdf1c5ff86" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Patient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677321752710</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Esta es la forma que puedo trabajar con la sobreescritura de métodos, como viste podemos sustituir un comportamiendo completo, quitarlo y añadirle un poco más de comportamiento segun la logica del negocio. class.21">
+      <created>1677323601435</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677323601435</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,18 +171,8 @@
     <MESSAGE value="Usando Getters y Setters class.13" />
     <MESSAGE value="Clases anidadas class.16" />
     <MESSAGE value="Esta es la forma que podemos hacer el código más conciso, mucho más legible utilizando herencia en java. Ahora este código puede ser reutilizado en nuestras clases HIJAS y cuando estemos utilizando las clases hijas, alli podemos utilizar los métodos que definimos en USER como si fueran propios de esta clase. class20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esta es la forma que podemos hacer el código más conciso, mucho más legible utilizando herencia en java. Ahora este código puede ser reutilizado en nuestras clases HIJAS y cuando estemos utilizando las clases hijas, alli podemos utilizar los métodos que definimos en USER como si fueran propios de esta clase. class20" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Doctor.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Esta es la forma que puedo trabajar con la sobreescritura de métodos, como viste podemos sustituir un comportamiendo completo, quitarlo y añadirle un poco más de comportamiento segun la logica del negocio. class.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Esta es la forma que puedo trabajar con la sobreescritura de métodos, como viste podemos sustituir un comportamiendo completo, quitarlo y añadirle un poco más de comportamiento segun la logica del negocio. class.21" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyMedicalAppointments$Main.ic" NAME="Main Coverage Results" MODIFIED="1677095346068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
